@@ -1,0 +1,65 @@
+body {
+  padding-top: 45px;
+  background: url("../img/Burger.jpeg") no-repeat center center fixed;
+  background-size: cover;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  .row {
+    padding: 0 10px;
+  }
+}
+
+#bodyCover {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+section {
+  margin-top: 50px;
+}
+
+#title {
+  margin-top: 200px;
+  font-family: 'Bungee Shade', cursive;
+  h1 {
+    font-size: 5em;
+  }
+}
+
+#restaurant {
+  margin-top: 250px;
+
+  img {
+    margin-top: 11%;
+  }
+}
+
+#food {
+  .card {
+    height: 400px;
+  }
+}
+
+.bg-bright {
+  color: #333;
+  background: #eee;
+  opacity: 0.9;
+}
+
+@media(max-width: 999px) {
+  #title {
+    margin-top: 150px;
+  }
+  #restaurant {
+    margin-top: 200px;
+  }
+}
