@@ -4,6 +4,10 @@ body {
   background-size: cover;
   font-family: 'Roboto', sans-serif; }
 
+.bg-bright {
+  color: #333;
+  background: rgba(238, 238, 238, 0.9); }
+
 .container .row {
   padding: 0 10px; }
 
@@ -17,7 +21,8 @@ body {
   opacity: 0.8; }
 
 section {
-  margin-top: 50px; }
+  margin-top: -10px;
+  padding-top: 60px; }
 
 #title {
   margin-top: 200px;
@@ -33,13 +38,30 @@ section {
 #food .card {
   height: 400px; }
 
-.bg-bright {
-  color: #333;
-  background: #eee;
-  opacity: 0.9; }
+#team img {
+  margin-top: -35px; }
+
+#team i.fa {
+  font-size: 35px; }
+
+#reservation p {
+  font-size: 20px; }
+
+#reservation i.fa {
+  font-size: 1.5em; }
+
+@media (max-width: 1200px) {
+  #reservation p {
+    font-size: 15px; }
+  #reservation i.fa {
+    font-size: 1.5em; } }
 
 @media (max-width: 999px) {
   #title {
     margin-top: 150px; }
+    #title h1 {
+      font-size: 3.5em; }
   #restaurant {
-    margin-top: 200px; } }
+    margin-top: 200px; }
+  #food .card {
+    height: 500px; } }
